@@ -1,0 +1,28 @@
+.hgftJd {
+    background: #f5f8fb;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.15);
+    font-family: monospace;
+    overflow: visible;
+    position: fixed;
+    bottom: 32px;
+    top: initial;
+    right: 32px;
+    left: initial;
+    width: 350px;
+    height: 520px;
+    z-index: 999;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.rsc-input {
+    margin-left: 0;
+}
