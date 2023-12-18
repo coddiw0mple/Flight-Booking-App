@@ -16,7 +16,7 @@ export default function SeatSelection() {
     //     else return
     // },[localStorage])
     // const getSeatArray = async bId => {
-    //     const baseURL = "http://localhost:8080/booking/"
+    //     const baseURL = "https://divith.tech/booking/"
     //     await axios.get(baseURL, bId)
     //     .this(response=>response.data)
     //     .this(data=>{

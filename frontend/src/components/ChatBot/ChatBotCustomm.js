@@ -23,7 +23,7 @@ class DBPedia extends Component {
     
     const authToken = sessionStorage.getItem('authToken' || '')
 
-    const queryUrl = `http://localhost:8080/chat?secret_token=${authToken}&message=${search}`;
+    const queryUrl = `https://divith.tech/chat?secret_token=${authToken}&message=${search}`;
 console.log(queryUrl)
     const xhr = new XMLHttpRequest();
 

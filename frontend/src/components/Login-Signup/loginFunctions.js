@@ -12,12 +12,12 @@ export function logUserIn(userCredentials) {
 
 export function loadRoutes(){
     const authToken = sessionStorage.getItem('authToken' || '')
-    let apiUrl = `http://localhost:8080/user/profile?secret_token=${authToken}`
+    let apiUrl = `https://divith.tech/user/profile?secret_token=${authToken}`
     return axios.get(apiUrl)
 }
 
 export function getCurrentUserDetails(authToken){
     const token =  authToken
-    let apiUrl = `http://localhost:8080/user/profile?secret_token=${token}`
+    let apiUrl = `https://divith.tech/user/profile?secret_token=${token}`
     return axios.get(apiUrl)
 }
