@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export function logUserIn(userCredentials) {
-    let apiUrl = 'http://divith.tech/login'
+    let apiUrl = 'https://divith.tech/login'
     return axios.post(apiUrl,userCredentials, {
         headers: {
             'Content-Type': 'application/json'
