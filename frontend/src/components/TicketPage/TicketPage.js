@@ -83,7 +83,7 @@ export default function TicketPage({ history }) {
                 <article className="ticket">
                     <header className="ticket__wrapper">
                         <div className="ticket__header">
-                            1 🎟 SWADESHI AIRLINES
+                            1 🎟 G7 AIRLINES
                         </div>
                     </header>
                     <div className="ticket__divider">

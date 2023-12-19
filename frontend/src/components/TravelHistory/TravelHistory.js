@@ -122,7 +122,7 @@ export default class App extends React.Component {
             <div className='row' >
                 
                 <div className='columnThree' >
-                    <h3 > SWADESHI AIRLINES </h3>{' '}
+                    <h3 > G7 AIRLINES </h3>{' '}
                     <div>
                         <p> TRAVEL HISTORY DETAILS </p>{' '}
                         <div className='row' >
